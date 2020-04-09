@@ -7,8 +7,17 @@ These demos are purposely written in a simple and clear style. You will find no 
 First, install [Webpack](https://www.npmjs.com/package/webpack) and [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server) globally.
 
 ```bash
-$ npm i -g webpack webpack-dev-server
+$ npm i -g webpack webpack-dev-server webpack-cli
 ```
+
+Check if install globally successfully
+
+```bash
+$ webpack-cli --version
+$ 3.3.11
+```
+
+If not show version, please follow [this doc](https://medium.com/@jagatjyoti.1si13cs040/npm-g-install-npm-package-not-working-as-desired-why-why-why-19795abf0b59). You should add `~/.npm-global` to the `PATH` environment.
 
 Then, clone the repo.
 
